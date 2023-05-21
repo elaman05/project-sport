@@ -1,0 +1,145 @@
+.AboutWrap{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.About{
+    width: 1440px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+.aboutContent{
+    width: 1200px;
+    height: 100%;
+    box-shadow: 10px 10px 10px rgb(238, 192, 192);
+    
+    margin: 0 auto;
+    border: 5px solid blue;
+}
+.aboutBlockFirst{
+    width: 1190px;
+    height: 850px;
+    
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.abBlockLeft{
+    margin-top: 50px;
+}
+.abBlockLeft h1{
+ width: 1100px;
+margin: 0 auto;
+}
+.abBlockRight{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+.abBlockRight img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(93, 86, 86);
+
+}
+.aboutBlockSecond{
+    width: 1190px;
+    height: 950px;
+   
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.aboutBlockThree{
+    width: 1190px;
+    height: 700px;
+   
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.abBlockLeftsecond{
+    margin-top: 50px;
+}
+
+.abBlockRightsecond{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+.abBlockRightsecond img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(240, 200, 200);
+
+}
+.abBlockLeftsecond h2{
+    width: 1100px;
+    color: rgb(54, 50, 50);
+    margin: 0 auto;
+   
+}
+.abBlockFoure{
+    width: 1190px;
+    height: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+.abCard{
+    width: 1000px;
+    height: 100px;
+    background-color:rgb(178, 246, 178);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.abCard h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    color:rgb(36, 33, 33);
+}
+.abBlockFoure h2{
+    font-family: sans-serif;
+    color:rgb(206, 142, 89);
+}
+.miniCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 80px;
+  
+}
+.miniCard img{
+    width: 50px;
+    margin-right: 15px;
+    
+}
+.miniCard h3{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(76, 68, 68);
+    
+}
